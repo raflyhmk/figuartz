@@ -86,7 +86,7 @@ $dataProduk = mysqli_fetch_array($produk);
         </li>
         <!-- Nav Item - penjualan -->
         <li class="nav-item">
-          <a class="nav-link" href="#">
+          <a class="nav-link" href="penjualan.php">
             <i class="fas fa-fw fa-table"></i>
             <span>Penjualan</span></a
           >
@@ -188,7 +188,7 @@ $dataProduk = mysqli_fetch_array($produk);
             <div class="card shadow mb-4">
               <div class="card-header py-3">
                 <h6 class="m-0 font-weight-bold text-primary">
-                  <a href="daftarProduk.php"><button class="btn btn-primary">kembali</button></a>
+                  <a href="penjualan.php"><button class="btn btn-primary">kembali</button></a>
                 </h6>
               </div>
               <div class="card-body">

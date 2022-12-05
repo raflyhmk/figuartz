@@ -40,7 +40,7 @@ if($_SESSION['status']!="login"){
     ?>
     <nav class="navbar navbar-expand-lg navbar-light bg-transparent mt-2">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="home.php">
           <img
             src="../../images/logo.png"
             alt="Logo"
@@ -61,7 +61,7 @@ if($_SESSION['status']!="login"){
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mx-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="home.php">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -98,7 +98,7 @@ if($_SESSION['status']!="login"){
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="profile.php">Profile</a></li>
-              <li><a class="dropdown-item" href="../config/logout.php">Logout</a></li>
+              <li><a class="dropdown-item" href="../../config/logout.php">Logout</a></li>
             </ul>
           </div>
         </div>
@@ -111,7 +111,7 @@ if($_SESSION['status']!="login"){
       <div class="container">
         <nav aria-label="breadcrumb" class="pt-3 pb-2 mb-3">
           <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="home.php">Home</a></li>
             <li class="breadcrumb-item active" aria-current="page">
               Cart details
             </li>
